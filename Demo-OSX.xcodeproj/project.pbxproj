@@ -87,6 +87,7 @@
 		55D8EE3B17628A71009C25F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D8EE3A17628A71009C25F1 /* AppDelegate.m */; };
 		55D8EE3E17628A71009C25F1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55D8EE3C17628A71009C25F1 /* MainMenu.xib */; };
 		55D8EE4F17628FBC009C25F1 /* DemoSVGObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D8EE4E17628FBC009C25F1 /* DemoSVGObject.m */; };
+		A801B6E722E1D71200047032 /* missing_image.svg in Resources */ = {isa = PBXBuildFile; fileRef = A801B6E622E1D71100047032 /* missing_image.svg */; };
 		E0060539218BEBF300FC58FE /* shapes2.svg in Resources */ = {isa = PBXBuildFile; fileRef = E0060531218BEBF300FC58FE /* shapes2.svg */; };
 /* End PBXBuildFile section */
 
@@ -371,6 +372,7 @@
 		55D8EE3D17628A71009C25F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		55D8EE4D17628FBC009C25F1 /* DemoSVGObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSVGObject.h; sourceTree = "<group>"; };
 		55D8EE4E17628FBC009C25F1 /* DemoSVGObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSVGObject.m; sourceTree = "<group>"; };
+		A801B6E622E1D71100047032 /* missing_image.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = missing_image.svg; sourceTree = "<group>"; };
 		E0060531218BEBF300FC58FE /* shapes2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = shapes2.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -406,6 +408,7 @@
 				32C4FCFF2173976C00FBEDBF /* bird-1382034603Euc-cropped.png */,
 				32C4FD002173976C00FBEDBF /* test-stroke-dash-array.svg */,
 				32C4FD012173976C00FBEDBF /* breaking-1.svg */,
+				A801B6E622E1D71100047032 /* missing_image.svg */,
 				32C4FD022173976C00FBEDBF /* Scale-Negative-Direction.svg */,
 				32C4FD032173976C00FBEDBF /* RainbowWing.svg */,
 				32C4FD042173976C00FBEDBF /* Note.svg */,
@@ -485,7 +488,7 @@
 		32EE377A2173431300A23278 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32EE37842173431300A23278 /* libSVGKit-iOS.2.0.0.a */,
+				32EE37842173431300A23278 /* libSVGKit-iOS.2.1.0.a */,
 				32EE37862173431300A23278 /* SVGKit-iOS Tests.xctest */,
 				32EE37882173431300A23278 /* SVGKit.framework */,
 				32EE378A2173431300A23278 /* SVGKitFramework-iOSTests.xctest */,
@@ -626,6 +629,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -657,10 +661,10 @@
 			remoteRef = 327B288A217DA6D2004D27FC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		32EE37842173431300A23278 /* libSVGKit-iOS.2.0.0.a */ = {
+		32EE37842173431300A23278 /* libSVGKit-iOS.2.1.0.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "libSVGKit-iOS.2.0.0.a";
+			path = "libSVGKit-iOS.2.1.0.a";
 			remoteRef = 32EE37832173431300A23278 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -866,6 +870,7 @@
 				32C4FD6D2173976C00FBEDBF /* map-alaska-onlysimple.svg in Resources */,
 				32C4FD492173976C00FBEDBF /* Note.svg in Resources */,
 				32C4FD452173976C00FBEDBF /* test-stroke-dash-array.svg in Resources */,
+				A801B6E722E1D71200047032 /* missing_image.svg in Resources */,
 				32C4FD4C2173976C00FBEDBF /* sakamura-default-fill-opacity-test.svg in Resources */,
 				32C4FD4E2173976C00FBEDBF /* Europe_states_reduced.svg in Resources */,
 				32C4FD582173976C00FBEDBF /* CSS.svg in Resources */,

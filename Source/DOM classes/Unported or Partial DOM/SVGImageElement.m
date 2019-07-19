@@ -84,7 +84,7 @@ CGImageRef SVGImageCGImage(UIImage *img)
 	{
 		effectiveSource = [self.rootOfCurrentDocumentFragment.source sourceFromRelativePath:_href];
 		NSInputStream *stream = effectiveSource.stream;
-        if (stream) {
+        if (stream != nil) {
             [stream open]; // if we do this, we CANNOT parse from this source again in future
             NSError *error = nil;
             imageData = [NSData dataWithContentsOfStream:stream initialCapacity:NSUIntegerMax error:&error];
@@ -95,6 +95,9 @@ CGImageRef SVGImageCGImage(UIImage *img)
         }
 	}
 	
+    if (!imageData) {
+        return newLayer;
+    }
 	/** Now we have some raw bytes, try to load using Apple's image loaders
 	 (will fail if the image is an SVG file)
 	 */
